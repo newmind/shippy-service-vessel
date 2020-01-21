@@ -7,6 +7,8 @@ RUN mkdir /app
 WORKDIR /app
 
 ENV GO111MODULE=on
+ENV GOPROXY=direct
+ENV GOSUMDB=off
 
 COPY . .
 
