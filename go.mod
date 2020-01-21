@@ -5,7 +5,6 @@ go 1.13
 require (
 	github.com/DataDog/zstd v1.4.4 // indirect
 	github.com/golang/protobuf v1.3.2
-	github.com/google/martian v2.1.0+incompatible
 	github.com/micro/go-micro v1.18.0
 	github.com/sirupsen/logrus v1.4.2
 	github.com/tidwall/pretty v1.0.0 // indirect
